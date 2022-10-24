@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+}
+
+#chipid{
+	display: none;
+}
+
+.seccion2{
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.data__fecha{
+	font-size: 15pt;
+}
+.data__ubicacion{
+	font-size:15pt;
+}
+
+.seccion3{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:50px;
+}
+
+#buttom-temperatura:hover{
+	background-color:rgb(255,255,255,0.7); 
+}
+
+#buttom-temperatura{
+	height: 80px;
+	width: 250px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap:50px;
+	font-size: 25pt;
+	background-color:rgb(255,255,255,0.4); 
+	border-color:white;
+	outline: solid 4px white;
+	outline-offset:8px;
+	border-radius: 10px;
+}
+
+.icono-temp{
+	height: 50px;
+	width: 50px;
+	display: right;
+	background-image: url(../img/temp.png);
+	background-size: cover;
+	background-position: center;
+	mix-blend-mode: multiply;
+}
+
+#buttom-humedad{
+	height: 80px;
+	width: 250px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap:50px;
+	font-size: 25pt;
+	background-color:rgb(255,255,255,0.4); 
+	border-color:white;
+	outline: solid 4px white;
+	outline-offset:8px;
+	border-radius: 10px;
+}
+
+#buttom-humedad:hover{
+	background-color:rgb(255,255,255,0.7); 
+}
+
+.icono-hume{
+	height: 50px;
+	width: 50px;
+	display: right;
+	background-image: url(../img/hume.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.contenedor{
+	height: 200px;
+	background-color: blue;
+}
+
+.item-title{
+	width: 100px;
+	height: 40px;
+	background-color: pink;
+}

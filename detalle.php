@@ -12,38 +12,20 @@
 			echo $_GET['chipid'];
 		?>
 	</div>
-	<template id=tpl__datos>
-		<header>
-			<a href="https://mattprofe.com.ar/alumno/3816/app-clima/panel.html" class="volver"><</a>
+		<template id=tpl__datos>
 			<div class="seccion2">
 				<div class="data__fecha"></div>
 				<div class="data__ubicacion"></div>
 			</div>
-		</header>
 		<div class="seccion3">
 			<div class="boton" id="buttom-temperatura" onclick="verTemperatura()">
-				<div class="icono termometro"></div>
+				<div class="icono-temp"></div>
 				<div class="centrar data__maxtemperatura"></div>
 			</div>
 			<div class="boton" id="buttom-humedad" onclick="verHumedad()">
-				<div class="icono agua"></div>
+				<div class="icono-hume"></div>
 				<div class="centrar data__humedad"></div>
 			</div>
-			<!--<div class="boton" id="buttom-viento" onclick="verViento()">
-				<div class="icono viento"></div>
-				<div class="contenedor__viento">
-					<div class="data__viento"></div>
-					<div class="centrar data__veleta"></div>
-				</div>
-			</div>
-			<div class="boton" id="buttom-presion" onclick="verPresion()">
-				<div class="icono presion"></div>
-				<div class="centrar data__presion"></div>
-			</div>
-			<div class="boton" id="buttom-fuego" onclick="verFuego()">
-				<div class="icono fuego"></div>
-				<div class="centrar data__fuego">---</div>
-			</div>-->
 		</div>
 
 		<div class="contenedor">
@@ -65,68 +47,9 @@
 		 							<div class="important-val-dec" id="data__temperatura__decimal"> -- </div>
 								</div>
 							</div>
-							<!--<div class="panel-row">
-								<div class="item">
-		 							<div class="item-title">
-		 								Máxima
-		 							</div>
-		 							<div class="item-value" id="data__tempmax">
-		 								--ºC
-		 							</div>
-		 						</div>
-		 						<div class="item">
-		 							<div class="item-title">
-		 								Mínima
-		 							</div>
-		 							<div class="item-value" id="data__tempmin">
-		 								--ºC
-		 							</div>
-		 						</div>
-							</div>-->
+
 						</div>
 					</div>
-					<!--<div class="panel-col">
-						<div class="col-items">	 							
-	 						<div class="item">
-	 							<div class="item-title">
-	 								SENSACIÓN
-	 							</div>
-	 						</div>
-	 					</div>
-	 					<div class="col-items">
-	 						<div class="col-important">
-		 						<div class="important-val-int" id="data__sensacion__entero">
-		 							--
-		 						</div>
-								<div class="important-detail">
-									<div class="important-val-unit">
-		 								ºC
-		 							</div>
-		 							<div class="important-val-dec" id="data__sensacion__decimal">
-		 								--
-		 							</div>
-		 						</div> 							
-		 					</div>
-		 					<div class="panel-row">
-			 					<div class="item">
-		 							<div class="item-title">
-		 								Máxima
-		 							</div>
-		 							<div class="item-value" id="data__sensamax">
-		 								--ºC
-		 							</div>
-		 						</div>
-		 						<div class="item">
-		 							<div class="item-title">
-		 								Mínima
-		 							</div>
-		 							<div class="item-value" id="data__sensamin">
-		 								--ºC
-		 							</div>
-		 						</div>
-		 					</div>
-		 				</div>
-					</div>-->
 				</div>
 				<div class="panel-fuego">
 					<div class="panel-col">
@@ -292,7 +215,7 @@
 				</div>
 			</div>
 		</div>
-	</template>
+		</template>
 	<div id="listado"></div>
 	<script type="text/javascript" src="js/detalle.js"></script>
 </body>

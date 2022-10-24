@@ -13,8 +13,7 @@
 		listado.appendChild(clon);
 		}
 		async function loadEstaciones(){
-			//const response = await fetch("https://mattprofe.com.ar/alumno/3816/app-clima/api2/estacion/listar");
-			const response = await fetch("https://mattprofe.com.ar/proyectos/app-estacion/datos.php?mode=list-stations");
+			const response = await fetch("https://mattprofe.com.ar/alumno/3816/app-clima/api2/estacion/listar");
 			const data = await response.json();
 			return data;
 		}

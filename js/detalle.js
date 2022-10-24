@@ -40,6 +40,7 @@ function createEstacion(data){
 
 async function loadDataStation(){ 
 	const response = await fetch("https://mattprofe.com.ar/alumno/3765/app-estacion/api/estacion/info/"+chipid.textContent+"/1");
+
 	const data = await response.json();
 	return data;
 }
@@ -49,6 +50,7 @@ const INTERVAL_REFRESH = 10000;
 
 let botones = [
 	["temperatura"],
+
 	["fuego"],
 	["humedad"],
 	["viento"],
